@@ -1,0 +1,16 @@
+@import url("../style.css");
+
+main { max-width: 700px; }
+.detalhes { background: #fff; border-radius: 12px; padding: 24px; margin-top: 16px;
+            box-shadow: 0 2px 6px rgba(0,0,0,.1); text-align: center; }
+.detalhes img { width: 220px; height: 220px; }
+.detalhes h2 { text-transform: capitalize; font-size: 28px; }
+.info { display: flex; justify-content: center; gap: 24px; margin: 16px 0; flex-wrap: wrap; }
+.tipo { display: inline-block; background: #455a64; color: #fff; padding: 4px 12px;
+        border-radius: 999px; margin: 0 4px; text-transform: capitalize; font-size: 14px; }
+.habilidades { margin: 12px 0; text-transform: capitalize; }
+.stat { display: flex; align-items: center; gap: 8px; margin: 6px 0; text-align: left; }
+.stat-nome { width: 130px; text-transform: capitalize; font-size: 14px; }
+.barra { flex: 1; background: #e0e0e0; border-radius: 6px; height: 12px; overflow: hidden; }
+.barra-preenchida { background: #d32f2f; height: 100%; }
+.stat-valor { width: 32px; font-weight: bold; }
